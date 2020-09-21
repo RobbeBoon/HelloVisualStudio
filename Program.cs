@@ -9,9 +9,8 @@ namespace HelloVisualStudio
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello C#");
         }
-        private static string SayHello()
-        {
-            return "Hello";
-        }
+        private const string Hello = "Hello";
+
+        public static string SayHello => Hello;
     }
 }
